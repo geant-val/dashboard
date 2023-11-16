@@ -1,0 +1,7 @@
+name: Run reusable geant-val CI workflow
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  call-reusable:
+    uses: geant-val/geant-val-ci-workflows/.github/workflows/geant-val-ci-workflows.yaml@main
