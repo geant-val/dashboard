@@ -1,0 +1,6 @@
+[submodule "TestEm3"]
+	path = TestEm3
+	url = https://github.com/dkonst13/TestEm3.git
+[submodule "TestEm4"]
+	path = TestEm4
+	url = https://github.com/dkonst13/TestEm4.git
