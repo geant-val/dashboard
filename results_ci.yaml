@@ -1,5 +1,5 @@
 tests:
-  - name: "TestEm3
+  - name: "TestEm3"
     geant4_versions:
       - version: "10.7.p03"
         compilers:
@@ -7,7 +7,7 @@ tests:
             results:
               configure: "success"
               build: "failure"
-  - name: "TestEm3
+  - name: "TestEm3"
     geant4_versions:
       - version: "11.1.p02"
         compilers:
@@ -15,7 +15,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-  - name: "TestEm3
+  - name: "TestEm3"
     geant4_versions:
       - version: "11.1.ref10"
         compilers:
@@ -23,7 +23,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-  - name: "TestEm4
+  - name: "TestEm4"
     geant4_versions:
       - version: "10.7.p03"
         compilers:
@@ -31,7 +31,7 @@ tests:
             results:
               configure: "success"
               build: "failure"
-  - name: "TestEm4
+  - name: "TestEm4"
     geant4_versions:
       - version: "11.1.p02"
         compilers:
@@ -39,7 +39,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-  - name: "TestEm4
+  - name: "TestEm4"
     geant4_versions:
       - version: "11.1.ref10"
         compilers:
