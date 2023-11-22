@@ -4,3 +4,6 @@
 [submodule "TestEm4"]
 	path = TestEm4
 	url = https://github.com/dkonst13/TestEm4.git
+[submodule "ATLHECTB"]
+	path = ATLHECTB
+	url = https://github.com/dkonst13/ATLHECTB.git
