@@ -1,4 +1,28 @@
 tests:
+  - name: "ATLHECTB"
+    geant4_versions:
+      - version: "10.7.p03"
+        compilers:
+          - compiler_version: "10"
+            results:
+              configure: "success"
+              build: "success"
+  - name: "ATLHECTB"
+    geant4_versions:
+      - version: "11.1.p02"
+        compilers:
+          - compiler_version: "10"
+            results:
+              configure: "success"
+              build: "success"
+  - name: "ATLHECTB"
+    geant4_versions:
+      - version: "11.1.ref10"
+        compilers:
+          - compiler_version: "10"
+            results:
+              configure: "success"
+              build: "success"
   - name: "TestEm3"
     geant4_versions:
       - version: "10.7.p03"
