@@ -1,9 +1,0 @@
-tests:
-  - name: "TestEm4
-    geant4_versions:
-      - version: "11.1.p02"
-        compilers:
-          - compiler_version: "10"
-            results:
-              configure: "success"
-              build: "success"
