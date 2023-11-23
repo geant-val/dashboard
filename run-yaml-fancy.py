@@ -35,7 +35,7 @@ def generate_markdown_table(data):
 
 # Main execution
 if __name__ == "__main__":
-    yaml_data = read_yaml("results.yaml")
+    yaml_data = read_yaml("results_ci.yaml")
     markdown_table = generate_markdown_table(yaml_data)
     print(markdown_table)
     with open("output.md", "w") as md_file:
