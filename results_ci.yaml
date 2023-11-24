@@ -7,7 +7,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: ""
+              executable: "build/ATLHECTB"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.p02"
@@ -16,7 +16,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: ""
+              executable: "build/ATLHECTB"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.ref10"
@@ -25,7 +25,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: ""
+              executable: "build/ATLHECTB"
   - name: "TestEm3"
     geant4_versions:
       - version: "10.7.p03"
@@ -43,7 +43,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: ""
+              executable: "build/TestEm3"
   - name: "TestEm3"
     geant4_versions:
       - version: "11.1.ref10"
@@ -52,7 +52,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: ""
+              executable: "build/TestEm3"
   - name: "TestEm4"
     geant4_versions:
       - version: "10.7.p03"
@@ -70,7 +70,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: ""
+              executable: "build/TestEm3"
   - name: "TestEm4"
     geant4_versions:
       - version: "11.1.ref10"
@@ -79,4 +79,4 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: ""
+              executable: "build/TestEm3"
