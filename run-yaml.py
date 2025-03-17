@@ -8,8 +8,8 @@ def read_yaml(file_path):
 
 # Function to generate Markdown table
 def generate_markdown_table(data):
-    table = "| Test Name | Geant4 Version | Compiler Version | Configure Result | Build Result |\n"
-    table += "|-----------|----------------|------------------|------------------|--------------|\n"
+    table = "| Test Name | Geant4 Version | Compiler Version | Configure Result | Build Result  | Run Result   |\n"
+    table += "|-----------|----------------|------------------|------------------|--------------|--------------|\n"
 
     for test in sorted(data['tests'], key=lambda x: x['name']):
         for version in sorted(test['geant4_versions'], key=lambda x: x['version']):
