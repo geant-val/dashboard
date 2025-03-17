@@ -7,7 +7,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: "ATLHECTB"
+              executable: ""
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.p02"
@@ -16,7 +16,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: "ATLHECTB"
+              executable: ""
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.ref10"
@@ -25,7 +25,7 @@ tests:
             results:
               configure: "success"
               build: "success"
-              executable: "ATLHECTB"
+              executable: ""
   - name: "TestEm3"
     geant4_versions:
       - version: "10.7.p03"
