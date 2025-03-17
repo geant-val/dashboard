@@ -8,7 +8,7 @@ tests:
               configure: "success"
               build: "success"
               executable: ""
-              build: "failure"
+              run: "failure"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.p02"
@@ -18,7 +18,7 @@ tests:
               configure: "success"
               build: "success"
               executable: ""
-              build: "failure"
+              run: "failure"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.ref10"
@@ -28,7 +28,7 @@ tests:
               configure: "success"
               build: "success"
               executable: ""
-              build: "failure"
+              run: "failure"
   - name: "TestEm3"
     geant4_versions:
       - version: "10.7.p03"
@@ -38,7 +38,7 @@ tests:
               configure: "success"
               build: "failure"
               executable: ""
-              build: "skipped"
+              run: "skipped"
   - name: "TestEm3"
     geant4_versions:
       - version: "11.1.p02"
@@ -48,7 +48,7 @@ tests:
               configure: "success"
               build: "success"
               executable: "TestEm3"
-              build: "success"
+              run: "success"
   - name: "TestEm3"
     geant4_versions:
       - version: "11.1.ref10"
@@ -58,7 +58,7 @@ tests:
               configure: "success"
               build: "success"
               executable: "TestEm3"
-              build: "success"
+              run: "success"
   - name: "TestEm4"
     geant4_versions:
       - version: "10.7.p03"
@@ -68,7 +68,7 @@ tests:
               configure: "success"
               build: "failure"
               executable: ""
-              build: "skipped"
+              run: "skipped"
   - name: "TestEm4"
     geant4_versions:
       - version: "11.1.p02"
@@ -78,7 +78,7 @@ tests:
               configure: "success"
               build: "success"
               executable: "TestEm3"
-              build: "success"
+              run: "success"
   - name: "TestEm4"
     geant4_versions:
       - version: "11.1.ref10"
@@ -88,4 +88,4 @@ tests:
               configure: "success"
               build: "success"
               executable: "TestEm3"
-              build: "success"
+              run: "success"
