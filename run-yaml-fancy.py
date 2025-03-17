@@ -10,7 +10,9 @@ def read_yaml(file_path):
 def generate_shields_url(test_name, geant4_version, compiler_version, stage, result):
     base_url = "https://img.shields.io/static/v1"
     message = result.capitalize()
-    color = "brightgreen" if result == "success" else "red"
+    if result == "success": color = "brightgreen"
+    if result == "failure": color = "red"
+    if result == "skipped": color = "grey"
     # Setting label to an empty string
     return f"{base_url}?label=&message={message}&color={color}"
 
