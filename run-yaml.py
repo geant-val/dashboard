@@ -14,7 +14,7 @@ def generate_markdown_table(data):
     for test in sorted(data['tests'], key=lambda x: x['name']):
         for version in sorted(test['geant4_versions'], key=lambda x: x['version']):
             for compiler in sorted(version['compilers'], key=lambda x: x['compiler_version']):
-                row = f"| {test['name']} | {version['version']} | gcc{compiler['compiler_version']} | {compiler['results']['configure'].capitalize()} | {compiler['results']['build'].capitalize()} |\n"
+                row = f"| {test['name']} | {version['version']} | gcc{compiler['compiler_version']} | {compiler['results']['configure'].capitalize()} | {compiler['results']['build'].capitalize()} | {compiler['results']['run'].capitalize()} |\n"
                 table += row
     return table
 
