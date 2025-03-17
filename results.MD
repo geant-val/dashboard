@@ -1,5 +1,5 @@
-| Test Name | Geant4 Version | Compiler Version | Configure Result | Build Result |
-|-----------|----------------|------------------|------------------|--------------|
+| Test Name | Geant4 Version | Compiler Version | Configure Result | Build Result  | Run Result   |
+|-----------|----------------|------------------|------------------|--------------|--------------|
 | ATLHECTB | 10.7.p03 | gcc10 | Success | Success | Failure |
 | ATLHECTB | 11.1.p02 | gcc10 | Success | Success | Failure |
 | ATLHECTB | 11.1.ref10 | gcc10 | Success | Success | Failure |
