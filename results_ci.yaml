@@ -5,30 +5,30 @@ tests:
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "success"
+              configure: "skipped"
+              build: "skipped"
               executable: ""
-              run: "failure"
+              run: "skipped"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.p02"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "success"
+              configure: "skipped"
+              build: "skipped"
               executable: ""
-              run: "failure"
+              run: "skipped"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.ref10"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "success"
+              configure: "skipped"
+              build: "skipped"
               executable: ""
-              run: "failure"
+              run: "skipped"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.3"
@@ -45,8 +45,8 @@ tests:
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "failure"
+              configure: "skipped"
+              build: "skipped"
               executable: ""
               run: "skipped"
   - name: "TestEm3"
@@ -55,20 +55,20 @@ tests:
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "success"
-              executable: "TestEm3"
-              run: "success"
+              configure: "skipped"
+              build: "skipped"
+              executable: ""
+              run: "skipped"
   - name: "TestEm3"
     geant4_versions:
       - version: "11.1.ref10"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "success"
-              executable: "TestEm3"
-              run: "success"
+              configure: "skipped"
+              build: "skipped"
+              executable: ""
+              run: "skipped"
   - name: "TestEm3"
     geant4_versions:
       - version: "11.3"
@@ -85,8 +85,8 @@ tests:
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "failure"
+              configure: "skipped"
+              build: "skipped"
               executable: ""
               run: "skipped"
   - name: "TestEm4"
@@ -95,20 +95,20 @@ tests:
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "success"
-              executable: "TestEm3"
-              run: "success"
+              configure: "skipped"
+              build: "skipped"
+              executable: ""
+              run: "skipped"
   - name: "TestEm4"
     geant4_versions:
       - version: "11.1.ref10"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "success"
-              build: "success"
-              executable: "TestEm3"
-              run: "success"
+              configure: "skipped"
+              build: "skipped"
+              executable: ""
+              run: "skipped"
   - name: "TestEm4"
     geant4_versions:
       - version: "11.3"
