@@ -5,48 +5,48 @@ tests:
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "failure"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.p02"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "failure"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.1.ref10"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "failure"
   - name: "ATLHECTB"
     geant4_versions:
       - version: "11.3"
         compilers:
           - compiler_version: "13"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "failure"
   - name: "TestEm3"
     geant4_versions:
       - version: "10.7.p03"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "failure"
               executable: ""
               run: "skipped"
   - name: "TestEm3"
@@ -55,38 +55,38 @@ tests:
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "success"
   - name: "TestEm3"
     geant4_versions:
       - version: "11.1.ref10"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "success"
   - name: "TestEm3"
     geant4_versions:
       - version: "11.3"
         compilers:
           - compiler_version: "13"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "success"
   - name: "TestEm4"
     geant4_versions:
       - version: "10.7.p03"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "failure"
               executable: ""
               run: "skipped"
   - name: "TestEm4"
@@ -95,27 +95,27 @@ tests:
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "success"
   - name: "TestEm4"
     geant4_versions:
       - version: "11.1.ref10"
         compilers:
           - compiler_version: "10"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "success"
   - name: "TestEm4"
     geant4_versions:
       - version: "11.3"
         compilers:
           - compiler_version: "13"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "success"
