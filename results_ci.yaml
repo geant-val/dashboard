@@ -35,10 +35,10 @@ tests:
         compilers:
           - compiler_version: "13"
             results:
-              configure: "skipped"
-              build: "skipped"
+              configure: "success"
+              build: "success"
               executable: ""
-              run: "skipped"
+              run: "failure"
   - name: "TestEm3"
     geant4_versions:
       - version: "10.7.p03"
@@ -75,10 +75,10 @@ tests:
         compilers:
           - compiler_version: "13"
             results:
-              configure: "skipped"
-              build: "skipped"
-              executable: ""
-              run: "skipped"
+              configure: "success"
+              build: "success"
+              executable: "TestEm3"
+              run: "success"
   - name: "TestEm4"
     geant4_versions:
       - version: "10.7.p03"
@@ -115,7 +115,7 @@ tests:
         compilers:
           - compiler_version: "13"
             results:
-              configure: "skipped"
-              build: "skipped"
-              executable: ""
-              run: "skipped"
+              configure: "success"
+              build: "success"
+              executable: "TestEm3"
+              run: "success"
